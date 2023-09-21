@@ -26,9 +26,11 @@ Command References and prectice with commits and new branches
  * `git branch branchName` - create local branch `branchName`
  * `git chickout branchName` - switch to local branch `branchName`
  * `git checkout -b branchName` - create and switch to `branchName`
+ * `git config -- list` - show config settings for local repo
 
 
  ## Remote Commands
  * `git remote add origin url` - configure `url` as a remote repo, with alias `origin`
  * `git push origin branchName` - push local commits to remote repo ` origin` on branch `newBranch`
- * git push -u origin `branchName` -push and make `origin`
+ * git push -u origin `branchName` -push and make `origin` the defual remote for further `git push`
+ * `git pull origin branchName` into current local branch
