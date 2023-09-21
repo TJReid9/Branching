@@ -17,13 +17,16 @@ Command References and prectice with commits and new branches
  * `git status` - show status of working directory
  * `git log` - list local commit hstory
  * `git log --oneline` - list local commit history in compact form
+ * `git config --lost` - show config settings for local repo format
 
  ## Branching Commands
  * `git branch` - list local branches
  * `git branch -m newName` - rename current branch to `newName`
  * `git branch branchName` - create local branch `branchName`
  * `git chickout branchName` - switch to local branch `branchName`
+ * `git checkout -b branchName` - create and switch to `branchName`
 
  ## Remote Commands
  * `git remote add origin url` - configure `url` as a remote repo, with alias `origin`
  * `git push origin branchName` - push local commits to remote repo ` origin` on branch `newBranch`
+ * git push -u origin `branchName` -push and make `origin`
