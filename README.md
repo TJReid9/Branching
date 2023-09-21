@@ -1,4 +1,4 @@
- # Git Cheat Sheet and Branchig Practice
+ # Git Cheat Sheet and Branching Practice
 
 
  ## Basic Commands
